@@ -1,0 +1,87 @@
+/* ریست و پایه */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'IranYekanFanum', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #333;
+  background-color: #F7F7F8;
+  direction: rtl;
+  text-align: right;
+ 
+}
+
+/* تیترها با وزن‌ها و اندازه‌های متفاوت */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'IranYekanFanum', sans-serif;
+  color: #111;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 950;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 900;
+}
+h3 {
+  font-size: 26px;
+  font-weight: 800;
+}
+h4 {
+  font-size: 22px;
+  font-weight: 800;
+}
+h5 {
+  font-size: 18px;
+  font-weight: 700;
+}
+h6 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* پاراگراف‌ها */
+p {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 16px;
+  color: #444;
+}
+
+/* لیست‌ها */
+ul, ol {
+  padding-right: 24px;
+  margin-bottom: 16px;
+}
+
+li {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #444;
+  font-weight: 400;
+}
+
+/* لینک‌ها */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 700;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* کلاس بولد */
+.bold {
+  font-weight: 800;
+}

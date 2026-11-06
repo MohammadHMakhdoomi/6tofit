@@ -1,0 +1,206 @@
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: 100;
+	src: url('../fonts/iranyekan/woff/IRANYekanXFaNum-Thin.woff') format('woff'),
+	     url('../fonts/iranyekan/woff2/IRANYekanXFaNum-Thin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: 200;
+	src: url('../fonts/iranyekan/woff/IRANYekanXFaNum-UltraLight.woff') format('woff'),
+	     url('../fonts/iranyekan/woff2/IRANYekanXFaNum-UltraLight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/iranyekan/woff/IRANYekanXFaNum-Light.woff') format('woff'),
+	     url('../fonts/iranyekan/woff2/IRANYekanXFaNum-Light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/iranyekan/woff/IRANYekanXFaNum-Regular.woff') format('woff'),
+	     url('../fonts/iranyekan/woff2/IRANYekanXFaNum-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/iranyekan/woff/IRANYekanXFaNum-Medium.woff') format('woff'),
+	     url('../fonts/iranyekan/woff2/IRANYekanXFaNum-Medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/iranyekan/woff/IRANYekanXFaNum-DemiBold.woff') format('woff'),
+	     url('../fonts/iranyekan/woff2/IRANYekanXFaNum-DemiBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/iranyekan/woff/IRANYekanXFaNum-Bold.woff') format('woff'),
+	     url('../fonts/iranyekan/woff2/IRANYekanXFaNum-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: 800;
+	src: url('../fonts/iranyekan/woff/IRANYekanXFaNum-ExtraBold.woff') format('woff'),
+	     url('../fonts/iranyekan/woff2/IRANYekanXFaNum-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: 900;
+	src: url('../fonts/iranyekan/woff/IRANYekanXFaNum-Black.woff') format('woff'),
+	     url('../fonts/iranyekan/woff2/IRANYekanXFaNum-Black.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: 950;
+	src: url('../fonts/iranyekan/woff/IRANYekanXFaNum-ExtraBlack.woff') format('woff'),
+	     url('../fonts/iranyekan/woff2/IRANYekanXFaNum-ExtraBlack.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: 1000;
+	src: url('../fonts/iranyekan/woff/IRANYekanXFaNum-Heavy.woff') format('woff'),
+	     url('../fonts/iranyekan/woff2/IRANYekanXFaNum-Heavy.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekanen';
+	font-style: normal;
+	font-weight: 100;
+	src: url('../fonts/iranyekan/ennum/woff/IRANYekanX-Thin.woff') format('woff'),
+	     url('../fonts/iranyekan/ennum/woff2/IRANYekanX-Thin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekanen';
+	font-style: normal;
+	font-weight: 200;
+	src: url('../fonts/iranyekan/ennum/woff/IRANYekanX-UltraLight.woff') format('woff'),
+	     url('../fonts/iranyekan/ennum/woff2/IRANYekanX-UltraLight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekanen';
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/iranyekan/ennum/woff/IRANYekanX-Light.woff') format('woff'),
+	     url('../fonts/iranyekan/ennum/woff2/IRANYekanX-Light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekanen';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/iranyekan/ennum/woff/IRANYekanX-Regular.woff') format('woff'),
+	     url('../fonts/iranyekan/ennum/woff2/IRANYekanX-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekanen';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/iranyekan/ennum/woff/IRANYekanX-Medium.woff') format('woff'),
+	     url('../fonts/iranyekan/ennum/woff2/IRANYekanX-Medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekanen';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/iranyekan/ennum/woff/IRANYekanX-DemiBold.woff') format('woff'),
+	     url('../fonts/iranyekan/ennum/woff2/IRANYekanX-DemiBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekanen';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/iranyekan/ennum/woff/IRANYekanX-Bold.woff') format('woff'),
+	     url('../fonts/iranyekan/ennum/woff2/IRANYekanX-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekanen';
+	font-style: normal;
+	font-weight: 800;
+	src: url('../fonts/iranyekan/ennum/woff/IRANYekanX-ExtraBold.woff') format('woff'),
+	     url('../fonts/iranyekan/ennum/woff2/IRANYekanX-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekanen';
+	font-style: normal;
+	font-weight: 900;
+	src: url('../fonts/iranyekan/ennum/woff/IRANYekanX-Black.woff') format('woff'),
+	     url('../fonts/iranyekan/ennum/woff2/IRANYekanX-Black.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekanen';
+	font-style: normal;
+	font-weight: 950;
+	src: url('../fonts/iranyekan/ennum/woff/IRANYekanX-ExtraBlack.woff') format('woff'),
+	     url('../fonts/iranyekan/ennum/woff2/IRANYekanX-ExtraBlack.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'iranyekanen';
+	font-style: normal;
+	font-weight: 1000;
+	src: url('../fonts/iranyekan/ennum/woff/IRANYekanX-Heavy.woff') format('woff'),
+	     url('../fonts/iranyekan/ennum/woff2/IRANYekanX-Heavy.woff2') format('woff2');
+}
+
+body {
+	font-family: 'iranyekan', sans-serif;
+	background-color: #F7F7F8;
+	margin: 0px;
+}
+h1, h2, h3, h4, h5, h6,input, textarea {
+	font-family: 'iranyekan', sans-serif;
+}
+p{
+	font-family: 'iranyekan', sans-serif;
+}
+ul, li {
+	font-family: 'iranyekan', sans-serif;
+}
+html {
+	margin-top: 0px !important;
+}
+button{
+	font-family: 'iranyekan', sans-serif;
+}
+
+.fanum {
+  -moz-font-feature-settings: "ss02";
+  -webkit-font-feature-settings: "ss02";
+  font-feature-settings: "ss02";
+}
+
+.account-menu-close img {
+    filter: brightness(0) saturate(100%);
+}

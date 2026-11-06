@@ -1,0 +1,120 @@
+.mytheme-article-navigation-box {
+    direction: rtl;
+}
+
+.mytheme-navigation-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.mytheme-navigation-header .description {
+    margin-top: 8px;
+}
+
+.mytheme-navigation-items {
+    margin-top: 20px;
+}
+
+.mytheme-navigation-item {
+    display: flex;
+    align-items: stretch;
+    gap: 12px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.mytheme-navigation-item-drag {
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: move;
+    color: #888;
+    font-size: 18px;
+}
+
+.mytheme-navigation-item-content {
+    flex: 1;
+}
+
+.mytheme-navigation-item-title {
+    margin-bottom: 12px;
+}
+
+.mytheme-navigation-item-title label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.mytheme-navigation-item-title strong {
+    font-size: 14px;
+}
+
+.mytheme-heading-level {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 30px;
+    height: 24px;
+    padding: 0 6px;
+    border-radius: 4px;
+    background: #f0f0f1;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.mytheme-navigation-menu-title {
+    max-width: 600px;
+}
+
+.mytheme-navigation-menu-title label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.mytheme-navigation-menu-title input {
+    width: 100%;
+}
+
+.mytheme-navigation-empty {
+    padding: 30px;
+    text-align: center;
+    background: #f6f7f7;
+    border: 1px dashed #c3c4c7;
+}
+
+.mytheme-navigation-help {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f6f7f7;
+    border-radius: 6px;
+}
+
+.mytheme-navigation-help ul {
+    margin: 10px 20px 0 0;
+}
+
+.mytheme-navigation-help li {
+    margin-bottom: 5px;
+}
+
+.mytheme-navigation-item.ui-sortable-helper {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .12);
+}
+
+.mytheme-navigation-item.ui-sortable-placeholder {
+    visibility: visible !important;
+    height: 80px;
+    background: #f6f7f7;
+    border: 1px dashed #999;
+}
