@@ -1,0 +1,38 @@
+<?php
+/** Template Name: برنامه‌ها — CIP
+ * Template Post Type: page
+ */
+defined('ABSPATH') || exit;
+get_header('cip');
+$plans = array(
+ array(311,'Diet','برنامه غذایی','برنامه تغذیه شخصی‌سازی‌شده بر اساس سبک زندگی، ترجیح‌های غذایی و هدف بدنی تو.',array('طراحی برنامه بر اساس فرم ارزیابی اختصاصی','ترجیح‌های غذایی مثل گیاه‌خواری و فستینگ داخل همین برنامه تنظیم می‌شود','تحویل به‌صورت فایل PDF در حساب کاربری')),
+ array(238,'Training','برنامه ورزشی','برنامه تمرینی متناسب با محل تمرین، تجهیزات در دسترس و سطح آمادگی فعلی تو.',array('قابل اجرا در خانه یا باشگاه','تنظیم بر اساس تجهیزات موجود و محدودیت‌های حرکتی','به‌روزرسانی برنامه در طول دوره')),
+ array(315,'Combo','برنامه ترکیبی','تغذیه و تمرین در یک مسیر هماهنگ؛ مناسب زمانی که هر دو بخش باید هم‌راستا پیش بروند.',array('هماهنگی کامل بین برنامه غذایی و تمرینی','امکان افزودن ماژول‌های تخصصی مرتبط','پیگیری منظم پیشرفت')),
+);
+?>
+<style>
+.s2f-programs{direction:rtl;background:#fff;color:#18181b;font:14px/2 'iranyekanen',Tahoma,sans-serif;padding:70px 24px 48px}.s2f-programs *{box-sizing:border-box}.s2f-programs h1,.s2f-programs h2,.s2f-programs p{font-family:inherit;margin:0;color:inherit}.s2f-programs a{text-decoration:none}.s2f-programs a:focus-visible{outline:3px solid #5247ff;outline-offset:4px}.s2f-programs-wrap{max-width:1120px;margin:auto}.s2f-programs-title{text-align:center;margin-bottom:46px}.s2f-programs-title small{color:#675bdd}.s2f-programs h1{font-size:30px;font-weight:800;margin:8px 0 16px}.s2f-programs-title p{color:#85858c;font-size:13px}.s2f-programs-help{display:grid;grid-template-columns:1.6fr 1fr;gap:16px}.s2f-programs-box{border:1px solid #e6e6eb;border-radius:28px;padding:28px;display:flex;flex-direction:column;align-items:flex-start}.s2f-programs-quiz{background:#f1f0ff;border-color:#7468fa}.s2f-programs-box h2{font-size:17px;font-weight:700;margin:15px 0 8px}.s2f-programs-box p{font-size:12px;color:#85858c;line-height:2.4}.s2f-programs-pill{background:#fff;border-radius:99px;padding:3px 10px;color:#8983b4;font-size:10px}.s2f-programs-btn{display:inline-flex;justify-content:center;align-items:center;gap:14px;min-height:44px;border:1px solid #d6d6dc;border-radius:99px;color:#242427;background:#fff;padding:7px 22px;font:inherit;font-size:13px}.s2f-programs-box .s2f-programs-btn{margin-top:24px}.s2f-programs-primary{background:#5144f5;color:white;border-color:#5144f5}.s2f-programs-consult .s2f-programs-btn{width:100%;background:#f5f5f5;margin-top:auto}.s2f-programs-consult small{color:#999;font-size:11px;text-align:center;width:100%;margin-top:14px}.s2f-programs-info{background:#f5f5f6;border-radius:22px;padding:14px 20px;font-size:12px;color:#888;margin:22px 0}.s2f-programs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.s2f-programs-card{border:1px solid #e5e5eb;border-radius:25px;padding:24px;display:flex;flex-direction:column}.s2f-programs-card header{display:flex;justify-content:space-between;align-items:center}.s2f-programs-card h2{font-size:17px;font-weight:700}.s2f-programs-card header span{color:#999;font:12px Arial}.s2f-programs-card p{font-size:12px;color:#888;margin:13px 0}.s2f-programs-card ul{padding-right:18px;font-size:13px;margin:8px 0 30px;flex:1}.s2f-programs-card li{padding:4px 0}.s2f-programs-card li::marker{color:#5144f5}.s2f-programs-price{border-top:1px solid #eee;padding:15px 0;display:flex;justify-content:space-between;align-items:center}.s2f-programs-price small{font-size:11px;color:#999}.s2f-programs-price strong{font-size:20px}.s2f-programs-sub{font-size:11px;color:#888;text-align:center;margin-top:12px}.s2f-programs-cip{margin-top:18px;border-radius:26px;background:linear-gradient(90deg,#ec490c,#fa155b 28%,#cf3ed9 70%,#0086ed);color:white;padding:30px;display:flex;justify-content:space-between;align-items:center;gap:24px}.s2f-programs-cip h2{font:700 23px Arial}.s2f-programs-cip p{font-size:13px;margin:10px 0}.s2f-programs-tags{display:flex;gap:8px;flex-wrap:wrap}.s2f-programs-tags span{font-size:10px;padding:3px 10px;background:#ffffff24;border-radius:99px}.s2f-programs-cip-actions{display:flex;flex-direction:column;gap:10px;flex-shrink:0}.s2f-programs-cip-actions>a:last-child{font-size:11px;color:#fff}.s2f-programs-note{font-size:11px;color:#999;text-align:center;margin:30px 0 0!important}@media(max-width:800px){.s2f-programs-help{grid-template-columns:1fr}.s2f-programs-grid{grid-template-columns:1fr}.s2f-programs-consult .s2f-programs-btn{margin-top:24px}.s2f-programs-cip{align-items:flex-start;flex-direction:column}.s2f-programs h1{font-size:25px}.s2f-programs{padding-top:45px}}
+</style>
+<main class="s2f-programs" id="cip-page" tabindex="-1"><div class="s2f-programs-wrap">
+<div class="s2f-programs-title"><small>گام ۱ از ۲</small><h1>کدام مسیر برای تو مناسب‌تر است؟</h1><p>فقط چهار انتخاب در این سطح وجود دارد. جزئیات و ترجیح‌ها در مرحله تنظیم برنامه مشخص می‌شوند.</p></div>
+<div class="s2f-programs-help">
+<section class="s2f-programs-box s2f-programs-quiz"><span class="s2f-programs-pill">✧ پیشنهاد ما برای شروع</span><h2>نمی‌دانی کدام برنامه؟ بگذار بر اساس شرایط خودت پیشنهاد بدهیم</h2><p>با چند سؤال کوتاه، برنامه مناسب، سطح سرویس و مدت دوره پیشنهادی را با قیمت شفاف می‌بینی.</p><a class="s2f-programs-btn s2f-programs-primary" href="<?php echo esc_url(home_url('/program-finder/')); ?>" data-cip-questionnaire>با چند سؤال برنامه مناسبم را پیدا کن <span aria-hidden="true">←</span></a></section>
+<section class="s2f-programs-box s2f-programs-consult"><h2>هنوز سؤال یا تردید داری؟</h2><p>صلاحیت‌سنجی کوتاه و توضیح نیاز کارشناسی با تو تماس می‌گیرد.</p><a class="s2f-programs-btn" href="https://consult.6tofit.com/">درخواست مشاوره</a><small>ارتباط مستقیم با پشتیبانی (پرداخت یا مشکل فنی)</small></section>
+</div>
+<div class="s2f-programs-info">ⓘ سطح سرویس (Core یا VIP) و مدت دوره (۱، ۳ یا ۶ ماه) در گام بعد انتخاب می‌شود.</div>
+<div class="s2f-programs-grid">
+<?php foreach($plans as $plan): $product=function_exists('wc_get_product')?wc_get_product($plan[0]):false; ?>
+<article class="s2f-programs-card"><header><h2><?php echo esc_html($plan[2]); ?></h2><span><?php echo esc_html($plan[1]); ?></span></header><p><?php echo esc_html($plan[3]); ?></p><ul><?php foreach($plan[4] as $feature): ?><li><?php echo esc_html($feature); ?></li><?php endforeach; ?></ul>
+<div class="s2f-programs-price"><small>شروع از</small><strong><?php
+if($product && function_exists('af_get_exact_product_price') && function_exists('af_is_usd_currency')) {
+ $price=af_get_exact_product_price($plan[0],1,'core','standard');
+ echo $price>0?wp_kses_post(wc_price($price,array('currency'=>af_is_usd_currency()?'USD':'IRT'))):'مشاهده قیمت';
+} else {echo 'مشاهده قیمت';}
+?></strong></div>
+<a class="s2f-programs-btn" href="<?php echo esc_url(get_permalink($plan[0])); ?>">تنظیم برنامه <span aria-hidden="true">←</span></a><a class="s2f-programs-sub" href="<?php echo esc_url(home_url('/program-finder/')); ?>" data-cip-questionnaire>مطمئن نیستی؟ راهنمای انتخاب برنامه</a></article>
+<?php endforeach; ?>
+</div>
+<section class="s2f-programs-cip"><div><h2>CIP</h2><p>برنامه ظرفیت‌محدود ۳ یا ۶ ماهه برای مدیریت یکپارچه سلامت، با هماهنگی و پایش مستمر.</p><div class="s2f-programs-tags"><span>دوره ۳ یا ۶ ماهه</span><span>بدون افزودنی</span><span>پذیرش پس از ارزیابی</span></div></div><div class="s2f-programs-cip-actions"><a class="s2f-programs-btn" href="<?php echo esc_url(home_url('/cip/')); ?>">مشاهده جزئیات CIP</a><a href="https://consult.6tofit.com/">بررسی صلاحیت پذیرش</a></div></section>
+<p class="s2f-programs-note">فستینگ، گیاه‌خواری، تمرین در خانه یا باشگاه و حرکات اصلاحی محصول جداگانه نیستند؛ داخل تنظیمات همین برنامه‌ها انتخاب می‌شوند.</p>
+</div></main>
+<?php get_footer('cip'); ?>
